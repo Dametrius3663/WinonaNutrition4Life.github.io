@@ -1,5 +1,6 @@
 /* General styles */
 body {
+    margin-top: 20px; /* Add a little space at the top */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
