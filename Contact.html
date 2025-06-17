@@ -31,15 +31,16 @@
 <body>
     <h2>Contact</h2>
         <p>If you'd like to get in touch with Emily for coaching or inquiries, please fill out the form below:</p>
-            
-        <!-- Formspree Contact Form -->
-        <form action="https://formspree.io/f/mzzbggpl" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="phone" name="phone" placeholder="Phone Number" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+         <div>   
+            <!-- Formspree Contact Form -->
+            <form action="https://formspree.io/f/mzzbggpl" method="POST" class="contact-form">
+                <input type="text" name="name" placeholder="Enter your 'Name'" required>
+                <input type="phone" name="phone" placeholder="Enter your 'Phone Number'" required>
+                <input type="email" name="email" placeholder="Enter your 'Email'" required>
+                <textarea name="message" placeholder="What is your 'Inquery'" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
         <script>
             const form = document.querySelector('.contact-form');
             

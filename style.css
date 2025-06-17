@@ -24,17 +24,13 @@ header {
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
-
-h1 {
-    font-size: 2.5em;
-    margin: 0;
-    font-weight: 600;
+.home body {
+    max-width: 1500px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
-
-p {
-    font-size: 1.15em;
-    line-height: 1.6;
-    color: #555;
+.home footer {
+    padding: 1rem;
 }
 
 button {
@@ -69,7 +65,7 @@ button:hover {
 }
 @media (max-width: 768px) {
     header {
-        padding: 20px 10px;
+        padding: 1rem;
     }
     .container {
         margin: 20px;
