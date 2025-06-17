@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #266028;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -95,11 +95,11 @@ nav ul li a {
 
 nav ul li a:hover {
     color: white; /* Highlight color on hover */
-    background-color: #4CAF50;
+    background-color: #5da260;
 }
 
 
 .contact-form input:focus, .contact-form textarea:focus {
-    border-color: #4CAF50;
+    border-color: #333;
     outline: none;
 }
