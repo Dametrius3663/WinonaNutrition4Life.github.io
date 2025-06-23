@@ -28,7 +28,7 @@ p {
 }
 
 p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection {
-    background: rgb(227, 155, 40);
+    background: rgb(135, 199, 7);
     color:#0f172a;
 }
 
